@@ -1,0 +1,22 @@
+.tt{
+    height: 30px;
+    width: 10cm;
+    margin-bottom: 10px;
+}
+
+.btns{
+    margin-right: 6px;
+    background-color: rgb(10, 153, 10);
+}
+
+.btnc{
+    font-size: 17px;
+    background-color: rgb(9, 153, 219);
+}
+
+.con{
+    text-align: center;
+    margin-left: 2cm;
+    border-style: double;
+    padding-bottom: 1cm;
+}

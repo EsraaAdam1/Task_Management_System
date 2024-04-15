@@ -1,0 +1,39 @@
+.btn {
+    background-color: #ff1f01;
+    float: right;
+    position:static  ;
+}
+
+.head{
+    text-align: center;
+}
+
+.list-group-item{
+    margin-bottom: 10px;
+    border-color: black;
+}
+
+.e{
+    width: 10cm;
+}
+
+.container{
+    margin-left: 2cm;
+    border-style: double;
+    padding-bottom: 1cm;
+}
+
+
+.at-btn{ 
+    margin-bottom: 1cm;
+    background-color: rgb(138, 137, 137);
+}
+
+.dat{
+    text-align: center;
+    background-color: beige;
+}
+
+.progress{
+    text-align: center;
+}

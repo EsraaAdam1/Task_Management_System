@@ -1,0 +1,29 @@
+.err{
+    background-color: rgb(247, 143, 143);
+}
+
+.ttd{
+    margin-bottom: 10px;
+}
+
+.btnc{
+    font-size: 17px;
+    background-color: rgb(9, 153, 219);
+}
+
+.btnu{
+    font-size: 17px;
+    background-color: rgb(6, 108, 155);
+}
+
+.btnd{
+    font-size: 17px;
+    background-color: rgb(226, 54, 11);
+}
+
+.cont{
+    margin-left: 2cm;
+    border-style: double;
+    padding-bottom: 1cm;
+    text-align: center;
+}

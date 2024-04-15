@@ -1,0 +1,24 @@
+<div class="container">
+    <h1 class="head">Task Management System</h1>
+<div *ngIf="tasksService.tasks.length == 0">
+    <p class="alert alert-danger">
+        No tasks Today!!
+    </p>
+</div>
+
+<div *ngIf="tasksService.tasks.length != 0">
+    <ul clas="list-group">
+        <li class="list-group-item" *ngFor="let task of tasksService.tasks; index as i">
+            <a [routerLink]="['/task',i]">{{task.title}}</a>
+            <button class="btn" (click)="deleteTask(i)">Delete</button>
+            <input type="checkbox" class="progress" name="vehicle1" value="Completed">
+            <hr>
+        </li>
+    </ul>
+</div>
+
+<div class="dat">
+    <a routerLink="/add-task" class="at-btn">Add Task</a>
+</div>
+
+</div>

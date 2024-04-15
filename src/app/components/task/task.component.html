@@ -1,0 +1,23 @@
+<div class="cont">
+<div *ngIf="!taskId">
+    <p class="err">There is no task Id</p>
+</div>
+
+<div *ngIf="taskId">
+    <h2>Task Details</h2>
+    <input class="ttd" type="text" placeholder="Task Title" [(ngModel)] = "task.title">
+    <div>
+        <textarea [(ngModel)] = "task.description"></textarea>
+    </div>
+    <div>
+        <input class="ttd" type="text" placeholder="Task due date" [(ngModel)] = "task.due_date">
+    </div>
+    <button class="btnu" (click)="updateTask()">Update</button>
+    <button class="btnd" (click)="deleteTask()">Delete</button>
+    <a class="btnc" routerLink="/"> Cancel </a>
+</div>
+
+</div>
+
+
+
